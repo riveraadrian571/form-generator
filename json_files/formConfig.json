@@ -1,0 +1,42 @@
+{
+    "formDetails": {},
+    "formBody": [
+        {
+            "id": 0,
+            "name": "name",
+            "label_placeholder": "Name",
+            "type": "text"
+        },
+        {
+            "id": 1,
+            "name": "email",
+            "label_placeholder": "Email",
+            "type": "email"
+        },
+        {
+            "id": 2,
+            "name": "specialPower",
+            "label_placeholder": "Special Power",
+            "type": "select",
+            "values": [
+                "",
+                "flight",
+                "invisibility",
+                "wealthyBatGuy",
+                "other"
+            ]
+        },
+        {
+            "id": 3,
+            "name": "acceptedTerms",
+            "label_placeholder": "Accepted Terms",
+            "type": "checkbox",
+            "checkboxDescription": "I accept the terms and conditions."
+        }
+    ],
+    "formSubmission": {
+        "type": "submit",
+        "isSubmittingText": "Loading...",
+        "isSubmittedText": "Submit"
+    }
+}
